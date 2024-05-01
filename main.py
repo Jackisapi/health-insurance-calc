@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def formula(p, d, o, c, m):
-    total = (p * m) + (d / m) + (o / m) + (c / m)
+    total = (p * m) + (d) + (o / m) + (c/m)
     total = total / 12
     return total
 
